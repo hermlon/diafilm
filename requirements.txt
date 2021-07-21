@@ -1,0 +1,5 @@
+numpy==1.21.0
+opencv-python==4.5.2.54
+PySide6==6.1.1
+shiboken6==6.1.1
+superqt==0.2.1
