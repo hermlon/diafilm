@@ -1,6 +1,6 @@
-# diacrop
+# diafilm
 
-Diacrop is a small GUI utility to capture pictures from webcam based slide film scanners such as the SilverCrest Negative Digitiser SND 3600.
+Diafilm is a small GUI utility to capture pictures from webcam based slide film scanners such as the SilverCrest Negative Digitiser SND 3600.
 
 *It turened out to be more of a quick and dirty project, but might be useful to some in it's current state, so I decided to publish it nevertheless.*
 
@@ -15,7 +15,7 @@ Diacrop is a small GUI utility to capture pictures from webcam based slide film 
 
 ## Features
 
-- automatically detect movement to the next slide and capture the image after some waiting time (see [the last section](#how-the-"next-slide"-detection-works))
+- automatically detect movement to the next slide and capture the image after some waiting time (see [the last section](#how-the-next-slide-detection-works))
 - save files in specified output dir, a subfolder named as written in text input field, and with an increasing file number
 
 **Please note:** the file number counter resets to 1 whenever the subfolder name in the text input field is being changed
@@ -33,7 +33,7 @@ First find out, which webcam you want to use by running `v4l2-ctl --list-devices
 
 ## Libraries used
 
-Diacrop is a Qt Application written in Python using PySide6. Further dependencies are OpenCV2, pydub and superqt.
+Diafilm is a Qt Application written in Python using PySide6. Further dependencies are OpenCV2, pydub and superqt.
 
 ## How the "next slide" detection works
 

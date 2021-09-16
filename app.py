@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
 	def __init__(self):
 		super().__init__()
 
-		self.setWindowTitle("autochrome")
+		self.setWindowTitle("diafilm")
 		self.resize(900, 700)
 		
 		self.filesaver = Filesaver()
